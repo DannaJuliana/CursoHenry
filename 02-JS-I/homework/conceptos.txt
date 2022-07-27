@@ -1,0 +1,5 @@
+VARIABLES: Dar nombre a algo
+STRING: Cojunto de caracteres definido entre comillas ejm var saludo = "Hola";
+FUNCIONES: Procedimiento o serie de instrucciones; ARGUMENTO: Variable disponible para la funcion; RETURN: Finaliza la funcion y devuelve un valor
+DECLARACIONES: Instruccuones; IF: Forma usada para tomar desiciones
+VALORES BOLEANOS: Logica boleana que tiene dos pcuiones true o false
