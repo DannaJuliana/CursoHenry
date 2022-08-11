@@ -2,3 +2,8 @@ FOR: ciclo de instrucciones que consta de 3 expresiones (inicializacion, condici
 &&: Operador logico and evalua las expresiones devuelve verdadero si las 2 expresiones son true y falso si las dos expresiones son false.
 ||: Operador logico or evalua las expresiones devuelve verdadero si ambas expresiones son true y falso si una expresion es true y otra false.
 !: Operador logico NOT devuelve el valor boleano (true-false) diferente a lo que pasa.
+
+for : bucle para iterar los elementos dentro de un array o un objeto.
+&& : operador logico "AND" que devuelve true o false. Retorna true si las dos expresiones son verdaderas y retorna false si una de las expresiones es falsa.
+|| : operador logico "OR" que devuelve true o false. Returva true si cualquiera de las dos expresiones son verdaderas, aunque solo se necesita que una sea verdadea para devolver true, devulve el valor de la primera expresiòn.
+! : operador logico "NOT" devuelve el valor contrario que se esta evaluando.
