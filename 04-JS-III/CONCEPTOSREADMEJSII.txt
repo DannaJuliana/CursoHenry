@@ -1,1 +1,2 @@
 Arrays : conjunto de elementos ordenados por un indice que comienza el conteo desde 0. Los elementos pueden ser strings, numero, boleanos, funciones u otros arrays. 
+var array = [1, "string", true, [1, 2, 3]]
