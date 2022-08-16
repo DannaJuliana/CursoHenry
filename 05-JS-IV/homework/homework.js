@@ -1,5 +1,7 @@
 // No cambies los nombres de las funciones.
 
+const { arrayReplaceAt } = require("markdown-it/lib/common/utils");
+
 function crearGato (nombre, edad) {
   // Crear un nuevo objeto con la propiedad "nombre" y el valor definido como el argumento "nombre".
   // Agrega una propiedad al objeto con el nombre "edad" y usa el valor definido en el argumento "edad"
@@ -132,6 +134,10 @@ function pasarUsuarioAPremium (usuarios) {
   // Devuelve el array de usuarios
   // Tu código:
 
+  for (var i = 0; i < usuarios.length; i++) {
+    usuarios[i].esPremium = true
+  }
+  return usuarios;
 }
 
 function sumarLikesDeUsuario (usuario) {
@@ -141,6 +147,13 @@ function sumarLikesDeUsuario (usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
+
+  var sumaLikes = 0;
+  
+  for (var i = 0; i < usuario.posts.length; i++) {
+    sumaLikes = sumaLikes + usuario.posts[i].likes
+  }
+  return sumaLikes;
 }
 
 function agregarMetodoCalculoDescuento (producto) {
@@ -154,6 +167,11 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
 
+  producto.calcularPrecioDescuento = function() {
+    var precioConDescuento = producto.precio - (producto.precio * producto.porcentajeDeDescuento)
+    return precioConDescuento;
+  }
+  return producto;
 }
 
 // No modificar nada debajo de esta línea
