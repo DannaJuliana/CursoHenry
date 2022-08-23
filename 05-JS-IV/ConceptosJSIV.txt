@@ -1,0 +1,5 @@
+Objetos = Es un elemento para almacenar informacion, datos, funciones(metodos) de forma no organizada. Coleccion de propiedades y valores, en donde la propiedad es key(llave) y el valor value(valor).
+Propiedades = Elemento de un objeto (key) que cotiene un valor.
+Metodos = Funciones dentro de un objeto.
+Bucle for in = Bucle usado para iterar dentro de un objeto.
+Notacion de puntos vs Notacion Corchetes = objeto.propiedad / objeto[propiedad]
