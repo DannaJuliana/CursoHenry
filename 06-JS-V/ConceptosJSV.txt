@@ -1,0 +1,1 @@
+prototype constructor: funcion cntructora para la creacion de clases en JS, sin embargo, JS es un lenguaje basado en prototipos mas no en clases.
